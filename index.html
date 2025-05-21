@@ -2,10 +2,137 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <title>Abdullah Ali | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <!-- These links help users jump to different sections of the page -->
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Section -->
+  <header id="about">
+    <h1>Abdullah Ali</h1>
+    <p>Tysons, VA | U.S. Citizen</p>
+    <div class="contact-links">
+      <!-- Email icon link -->
+      <a href="mailto:abdullahmehdiemail@gmail.com"><i class="fas fa-envelope"></i></a>
+      <!-- LinkedIn icon link (updated) -->
+      <a href="https://www.linkedin.com/in/abdullah-ali-100127300/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <!-- GitHub icon link -->
+      <a href="https://github.com/Abdullah-Mehdi" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </header>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>George Mason University</strong> - 3.88 GPA</p>
+    <p>Bachelor of Science in Applied Computer Science, Software Engineering Concentration</p>
+    <p>Feb. 2023 – Dec. 2025</p>
+    <ul>
+      <li>Dean’s List: Fall 2023, Spring 2024, Fall 2024</li>
+      <li>Member: Phi Kappa Phi Honors Society</li>
+      <li>Courses: Operating Systems, Algorithms, Software Engineering, OOP, Testing, Databases</li>
+    </ul>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <!-- Each job is in its own div for clarity -->
+    <div class="job">
+      <h3>Undergraduate Research Assistant</h3>
+      <p>George Mason University | Sep 2024 – Present</p>
+      <ul>
+        <li><i class="fas fa-check"></i> Analyzed government policies on AI dataset collection</li>
+        <li><i class="fas fa-check"></i> Used Python for data mining on GitHub repositories</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>Undergraduate Teaching Assistant</h3>
+      <p>George Mason University | Jan 2024 - May 2024, Jan 2025 - Present</p>
+      <ul>
+        <li><i class="fas fa-check"></i> Explained technical concepts to diverse audiences</li>
+        <li><i class="fas fa-check"></i> Mentored students in computer science principles</li>
+        <li><i class="fas fa-check"></i> Wrote assignments for OOP courses</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>Software Intern</h3>
+      <p>Techicon Inc. | Mar 2022 - Sep 2023</p>
+      <ul>
+        <li><i class="fas fa-check"></i> Worked in agile teams and peer programming</li>
+        <li><i class="fas fa-check"></i> Fixed bugs and performed stress testing</li>
+        <li><i class="fas fa-check"></i> Analyzed trends in government compliance software</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>StudyEZ</strong> <span class="project-tech">(React, MongoDB, Python, Flask, Gemini API)</span>
+        <br>
+        <i class="fas fa-lightbulb"></i> Full-stack lecture assistant for transcription and resource discovery.
+      </li>
+      <li>
+        <strong>Code Rush</strong> <span class="project-tech">(Java, JavaScript, MySQL, ReactJS, Docker)</span>
+        <br>
+        <i class="fas fa-gamepad"></i> Gamified coding platform for real-time challenges.
+      </li>
+      <li>
+        <strong>Fall Guys</strong> <span class="project-tech">(Python, OpenCV, MediaPipe, ReactJS, Flask)</span>
+        <br>
+        <i class="fas fa-user-shield"></i> Fall detection system with emergency response.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Awards Section -->
+  <section id="awards">
+    <h2>Awards</h2>
+    <ul>
+      <li><i class="fas fa-award"></i> Outstanding Teaching Assistant Award, GMU (May 2024)</li>
+    </ul>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li><i class="fas fa-code"></i> Java, Python, C/C++, JavaScript, Kotlin, React, HTML/CSS, LaTeX</li>
+      <li><i class="fas fa-cubes"></i> JUnit, Flask, AWS</li>
+      <li><i class="fas fa-tools"></i> Git/GitHub, Docker, JIRA, VS Code, PyCharm, IntelliJ, Eclipse</li>
+      <li><i class="fas fa-database"></i> pandas, NumPy</li>
+      <li><i class="fas fa-language"></i> English, Urdu, Hindko, Punjabi, Pashto</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:abdullahmehdiemail@gmail.com">abdullahmehdiemail@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/abdullah-ali-100127300/" target="_blank">Abdullah-Ali</a></p>
+    <p>GitHub: <a href="https://github.com/Abdullah-Mehdi" target="_blank">Abdullah-Mehdi</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Abdullah Ali</p>
+  </footer>
 </body>
 </html>
